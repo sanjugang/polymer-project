@@ -41,6 +41,9 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.items > * {
+    width: 50%;
+}
 .items .item{
     display: flex;
     flex-direction:column;
