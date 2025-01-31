@@ -62,7 +62,7 @@
     overflow: hidden;
     font-weight: 100;
     padding: 16px 24px 16px 70px;
-    padding-left: 6rem;
+    padding-left: 5.5rem;
     outline: none;
     background-color: white;
 }
@@ -112,6 +112,9 @@ ul{
     position:fixed;
     bottom: 0px;
     left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer{
     padding-top: 2rem;
