@@ -1,0 +1,89 @@
+.header1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.layout h1{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+}
+.layout{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-size: 1.3em;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.layout .header2{
+    display: none;
+}
+.cloths{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 1rem;
+}
+img{
+    height: 240px;
+    width: 1080px;
+    object-fit: cover;  
+ }
+.tshirts{
+    display: flex;
+}
+
+.shop{
+    border: 2px solid black;
+    background-color: white;
+    font-size: 14px;
+    padding: 8px 40px;
+}
+.footer{
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    border: 2px solid;
+    padding: 8px 15px ;
+    background-color: black;
+    color: white;
+}
+@media(min-width:800px){
+    .layout{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .header1 .icon{
+        display: none;
+    }
+    .layout .header2{
+        display: flex;
+        justify-content: center;
+    }
+    .layout .header2> *{
+        padding: 20px;
+        color: #202020;
+        font-weight: 500;
+        font-size: 13px;
+    }
+    img{
+       width: 1500px;
+       height: 300px;
+    }
+    .tshirts{
+        justify-content: center;
+    }
+    .tshirts > *{
+        max-width: 748px;
+    }
+    
+}
