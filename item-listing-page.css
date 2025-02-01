@@ -42,6 +42,7 @@
     justify-content: space-around;
 }
 .items > * {
+    padding: auto;
     width: 50%;
 }
 .items .item{
@@ -72,6 +73,9 @@
     .items {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+      }
+      .items > *{
+        width: auto;
       }
       .item img{
         padding-bottom: 20px;
